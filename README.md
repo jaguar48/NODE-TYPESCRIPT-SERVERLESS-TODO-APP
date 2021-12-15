@@ -160,9 +160,7 @@ export const authConfig = {
 
 To implement authentication in your application, you would have to create an Auth0 application and copy "domain" and "client id" to the `config.ts` file in the `client` folder. We recommend using asymmetrically encrypted JWT tokens.
 
-# Best practices
 
-To complete this exercise, please follow the best practices from the 6th lesson of this course.
 
 ## Logging
 
@@ -180,14 +178,6 @@ logger.info('User was authorized', {
 })
 ```
 
-
-# Grading the submission
-
-Once you have finished developing your application, please set `apiId` and Auth0 parameters in the `config.ts` file in the `client` folder. A reviewer would start the React development server to run the frontend that should be configured to interact with your serverless application.
-
-**IMPORTANT**
-
-*Please leave your application running until a submission is reviewed. If implemented correctly it will cost almost nothing when your application is idle.*
 
 # Suggestions
 
