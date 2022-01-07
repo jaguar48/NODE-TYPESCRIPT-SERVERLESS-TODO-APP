@@ -139,7 +139,7 @@ You also need to add any necessary resources to the `resources` section of the `
 
 # Frontend
 
-The `client` folder contains a web application that can use the API that should be developed in the project.
+The `client` folder contains a web application that can use the API in the project.
 
 This frontend should work with your serverless application once it is developed, you don't need to make any changes to the code. The only file that you need to edit is the `config.ts` file in the `client` folder. This file configures your client application and contains an API endpoint and Auth0 configuration:
 
@@ -156,7 +156,7 @@ export const authConfig = {
 
 ## Authentication
 
-To implement authentication in your application, you would have to create an Auth0 application and copy "domain" and "client id" to the `config.ts` file in the `client` folder. We recommend using asymmetrically encrypted JWT tokens.
+To implement authentication in your application, you would have to create an Auth0 application and copy "domain" and "client id" to the `config.ts` file in the `client` folder. I recommend using asymmetrically encrypted JWT tokens.
 
 
 
